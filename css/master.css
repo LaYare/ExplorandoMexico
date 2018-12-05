@@ -1,0 +1,145 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar-agency {
+  border-radius: 0;
+  min-height: 100px;
+  padding: 20px 100px;
+  background-color: #FBFADB;
+}
+
+.nav a {
+  color: #D29669;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.nav li a:hover {
+  background-color: transparent;
+  border-bottom: 2px solid #D29669;
+  transition: 0.2s;
+}
+
+.mini-item {
+  height: 90px;
+  color: white;
+  font-size: 20px;
+  padding: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.mini-item-1 {
+  background-image: url('../images/huasteca.jpeg');
+}
+
+.mini-item-2 {
+  background-image: url('../images/huasteca-2.jpeg');
+}
+
+.mini-item-3 {
+  background-image: url('../images/huasteca-3.jpeg');
+}
+
+.mini-item-4 {
+  background-image: url('../images/huasteca-4.jpeg');
+}
+
+.mini-item-5 {
+  background-image: url('../images/huasteca-5.jpeg');
+}
+
+.mini-item-6 {
+  background-image: url('../images/huasteca-6.jpeg');
+}
+
+h4 {
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.img-md {
+  height: 120px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.img-description {
+  background-color: #fafafa;
+  height: 120px;
+  padding-left: 0;
+}
+
+.img-md-container {
+  padding-right: 0;
+}
+
+.description-padding {
+  margin-left: 40px;
+}
+
+.footer-container {
+  background: #D29669;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+
+.navbar-brand {
+  height: 60px;
+  padding: 0;
+}
+
+.logo {
+  height: 100%;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.contact {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0;
+  flex-direction: column;
+}
+
+.socialIcon {
+  margin-right: 20px;
+}
+
+.contact li {
+  margin: 6px 0;
+}
+
+.contact li a {
+  color: #FBFADB;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+.navbar-toggle .icon-bar {
+    background: #D29669;
+}
+
+@media only screen and (max-width : 480px) {
+  .navbar-agency {
+    padding: 20px 30px;
+  }
+}
